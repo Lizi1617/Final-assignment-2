@@ -1,3 +1,4 @@
+/* 1439px-769px */
 @media (max-width: 1025px) {
 
     /* header */
@@ -29,4 +30,26 @@
     .show {
         left: 0;
     }
+
+    /* section2 */
+    .section2_div {
+        column-gap: 20px;
+        overflow-x: scroll;
+    }
+
+    /* footer */
+    footer {
+        padding: 48px 98px;
+    }
+
+    /* catalog */
+    .catalog {
+        padding-inline: 45px;
+    }
+
+    .catalog_card-section {
+        padding-inline: 45px;
+    }
 }
+
+/* contactis gverds verc repositori ver davuwere */
