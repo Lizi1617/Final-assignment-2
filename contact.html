@@ -23,9 +23,9 @@
   <div class="container">
     <!-- header  -->
     <header>
-      <img src="images/burger.svg" alt="burger" class="burger">
-      <img src="images/xmark.svg" alt="xmark" class="xmark">
-
+      <i class="fa-solid fa-bars burger"></i>
+      <i class="fa-solid fa-xmark xmark"></i>
+      
       <nav class="header_nav">
         <ul class="header_ul">
           <li class="header_li">
@@ -85,24 +85,91 @@
         </div>
       </div>
 
-      <div class="contact_input_div">
-        <div class="contact_input">
-          <input type="text" name="name" placeholder="Name">
-          <input type="text" name="Email" placeholder="Email">
-        </div>
-      </div>
-
-      <div class="textarea">
-        <label for="message">Message</label>
-        <textarea name="Message" id="Message" placeholder="Message"></textarea>
-      </div>
-
-      <button class="contact_button">SEND MESSAGE</button>
-
-
-
-      </main>
+      <form>
+        <div class="form_section">
+          <div class="input_box">
+            <input type="text" name="Name" placeholder="Name" class="input_title">
+            <input type="email" name="Email" placeholder="Email" class="input_title">
+            <div class="textarea">
+              <textarea name="Message" id="Message" placeholder="Message" class="textarea_title"></textarea>
+            </div>
+            <button class="form_button">SEND MESSAGE</button>
+            <div class="iframe_div">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d47651.68039106641!2d44.78332239707641!3d41.71555500291216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTbilisi%2C%20str%2C%20Rustaveli%2024!5e0!3m2!1ska!2sge!4v1722767300130!5m2!1ska!2sge"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+      </form>
     </section>
+    <!-- footer -->
+    <footer>
+      <section class="title_nav_box">
+        <h4 class="footer_title">Brands</h4>
+        <div class="line">
+          <img src="imiges/Line 3.svg" alt="line">
+        </div>
+        <nav>
+          <ul class="footer_right_section_ul">
+            <li>
+              <a href="catalog.html" class="footer_right_section_a">Fender</a>
+            </li>
+            <li>
+              <a href="catalog.html" class="footer_right_section_a">Gibson</a>
+            </li>
+            <li>
+              <a href="catalog.html" class="footer_right_section_a">Jockson</a>
+            </li>
+            <li>
+              <a href="catalog.html" class="footer_right_section_a">Ibanez</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="title_nav_box">
+        <h4 class="footer_title">Information</h4>
+        <div class="line">
+          <img src="imiges/Line 3.svg" alt="line">
+        </div>
+        <nav>
+          <ul class="footer_right_section_ul">
+            <li>
+              <a href="catalog.html" class="footer_right_section_a">Blog</a>
+            </li>
+            <li>
+              <a href="catalog.html" class="footer_right_section_a">Delivery</a>
+            </li>
+            <li>
+              <a href="catalog.html" class="footer_right_section_a">About us</a>
+            </li>
+            <li>
+          </ul>
+        </nav>
+      </section>
+      <section class="title_nav_box">
+        <h4 class="footer_title">Contact</h4>
+        <div class="line">
+          <img src="imiges/Line 3.svg" alt="line">
+        </div>
+        <nav>
+          <ul class="footer_right_section_ul">
+            <li>
+              <a href="contact.html" class="footer_right_section_a">Tbilisi, str, Rustaveli 24</a>
+            </li>
+            <li>
+              <a href="contact.html" class="footer_right_section_a">+(32)2 56 78 98</a>
+            </li>
+            <li>
+              <a href="contact.html" class="footer_right_section_a">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  </div>
 </body>
 
 </html>

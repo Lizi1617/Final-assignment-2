@@ -25,6 +25,16 @@ header {
 .burger,
 .xmark {
     display: none;
+    color: #05BCCA;
+}
+
+.burger{
+    font-size: 24px;
+}
+
+.xmark{
+    font-size: 26.67px;
+
 }
 
 .header_ul {
@@ -470,26 +480,62 @@ footer {
     padding-left: 400px;
 } */
 
-.contact_input_div {
-    padding-top: 40px;
-    column-gap: 8px;
-    display: flex;
-}
-
-.contact_input {
-    width: 100%;
+input {
+    width: 141px;
     height: 32px;
+    padding: 6px 99px 6px 8px;
+    background-color: #2C4246;
+    margin-top: 24px;
+    column-gap: 8px;
+    flex-direction: column;
 }
 
+.input_title {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A1C3C9;
+}
 
-.contact_button {
+textarea {
+    margin-top: 16px;
+    resize: none;
+    width: 290px;
+    height: 103px;
+    background-color: #2C4246;
+}
+
+.textarea_title {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A1C3C9;
+}
+
+.form_button {
     width: 290px;
     height: 40px;
-    margin-top: 24px;
     background-color: #C46A2B;
+    margin-top: 24px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #FFFFFF;
+}
+
+.iframe_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 240px;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 169px;
 }
