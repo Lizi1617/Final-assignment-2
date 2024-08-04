@@ -1,75 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact page</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <script src="https://kit.fontawesome.com/681d249422.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/laptop.css">
-    <link rel="stylesheet" href="css/tablet.css">
-    <link rel="stylesheet" href="css/mobile.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact page</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="https://kit.fontawesome.com/681d249422.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/laptop.css">
+  <link rel="stylesheet" href="css/tablet.css">
+  <link rel="stylesheet" href="css/mobile.css">
 </head>
+
 <body>
-    <div class="container">
-        <!-- header  -->
-        <header>
-          <img src="images/burger.svg" alt="burger" class="burger">
-          <img src="images/xmark.svg" alt="xmark" class="xmark">
-    
-          <nav class="header_nav">
-            <ul class="header_ul">
-              <li class="header_li">
-                <a href="index.html" class="header_li_link">Home</a>
-              </li>
-              <li class="header_li">
-                <a href="catalog.html" class="header_li_link">Catalog</a>
-              </li>
-              <li class="header_li">
-                <a href="contact.html" class="header_li_link">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
-    
+  <div class="container">
+    <!-- header  -->
+    <header>
+      <img src="images/burger.svg" alt="burger" class="burger">
+      <img src="images/xmark.svg" alt="xmark" class="xmark">
+
+      <nav class="header_nav">
+        <ul class="header_ul">
+          <li class="header_li">
+            <a href="index.html" class="header_li_link">Home</a>
+          </li>
+          <li class="header_li">
+            <a href="catalog.html" class="header_li_link">Catalog</a>
+          </li>
+          <li class="header_li">
+            <a href="contact.html" class="header_li_link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="index.html">
+        <img src="imiges/guitar logo.svg" alt="logo" class="index_logo">
+      </a>
+
+      <section class="header_buttons">
+        <button class="button_border">
           <a href="index.html">
-            <img src="imiges/guitar logo.svg" alt="logo" class="index_logo">
+            <i class="fa-solid fa-magnifying-glass"></i>
           </a>
-    
-          <section class="header_buttons">
-            <button class="button_border">
-                <a href="index.html">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-            </button>
-            <button class="button_bgColor">
-                <a href="contact.html">
-                    <i class="fa-regular fa-user"></i>
-                </a>
-            </button>
-            <button class="button_border">
-                <a href="catalog.html">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>
-            </button>
-          </section>
-        </header>
-        <!-- section -->
-         <section class="contact_section">
-          <div class="contact_section_div">
-            <h5 class="contact_section_title">Have a question? Need tech or playing support? Want to connect on social? Do it here!</h5>
-          </div>
-          <div class="contact_box">
-            <div class="contact_box_div">
-              
-            </div>
-          </div>
-         </section>
+        </button>
+        <button class="button_bgColor">
+          <a href="contact.html">
+            <i class="fa-regular fa-user"></i>
+          </a>
+        </button>
+        <button class="button_border">
+          <a href="catalog.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </button>
+      </section>
+    </header>
+    <!-- section -->
+    <section class="contact_section">
+      <div class="contact_section_div">
+        <h5 class="contact_section_title">Have a question? Need tech or playing support? Want to connect on social? Do
+          it here!</h5>
+      </div>
+      <div class="contact_box">
+        <div class="contact_box_div">
+          <h5 class="contact_box_title">
+            <i class="fa-solid fa-envelope"></i>
+            <span class="contact_box_span">
+              guitar.center@gmail.com</span>
+          </h5>
+          <h5 class="contact_box_title">
+            <i class="fa-solid fa-mobile"></i>
+            <span class="contact_box_span">
+              +(32)2 56 78 98
+            </span>
+            <!-- <img src="imiges/gis_location-poi (1).svg" alt="frame" class="frame"> -->
+          </h5>
+        </div>
+      </div>
+
+      <div class="contact_input_div">
+        <div class="contact_input">
+          <input type="text" name="name" placeholder="Name">
+          <input type="text" name="Email" placeholder="Email">
+        </div>
+      </div>
+
+      <div class="textarea">
+        <label for="message">Message</label>
+        <textarea name="Message" id="Message" placeholder="Message"></textarea>
+      </div>
+
+      <button class="contact_button">SEND MESSAGE</button>
+
+
+
+      </main>
+    </section>
 </body>
+
 </html>
