@@ -502,7 +502,11 @@ footer {
 }
 
 .frame {
-    padding-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 496px;
+    margin-bottom: 75px;
 }
 
 input {
@@ -512,7 +516,6 @@ input {
     background-color: #2C4246;
     margin-top: 24px;
     column-gap: 8px;
-    flex-direction: column;
 }
 
 .input_title {
@@ -526,8 +529,6 @@ input {
 textarea {
     margin-top: 16px;
     resize: none;
-    width: 290px;
-    height: 103px;
     background-color: #2C4246;
 }
 
@@ -558,16 +559,16 @@ textarea {
     margin-left: 240px;
 }
 
-iframe {
+.iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 169px;
+    padding-left: 240px;
+
 }
 
 .logo {
     width: 24px;
     height: 24px;
     background-color: #05BCCA;
-
 }
