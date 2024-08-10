@@ -8,7 +8,7 @@
 
     .header_nav {
         position: fixed;
-        top: 98.4px;
+        top: 100px;
         background-color: #C46A2B;
         left: -100%;
         width: 200px;
@@ -37,19 +37,36 @@
         overflow-x: scroll;
     }
 
+    .index_section2 {
+        padding-inline: 45px 0;
+    }
+
+    .section2_div {
+        overflow-x: scroll;
+    }
+
+    .index_figure {
+        flex: 1 0 298px;
+    }
+
     /* footer */
     footer {
-        padding: 48px 98px;
+        padding-inline: 98px;
+        column-gap: 0;
+        justify-content: space-between;
     }
 
     /* catalog */
-    .catalog {
+    .catalog_section {
         padding-inline: 45px;
     }
 
-    .catalog_card-section {
-        padding-inline: 45px;
+    .none1025 {
+        display: none;
+    }
+
+    /* contact */
+    .contact_section {
+        padding-right: 45px;
     }
 }
-
-/* contactis gverds verc repositori ver davuwere */

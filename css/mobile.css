@@ -7,16 +7,31 @@
     }
 
     /* section */
-    .section1 {
+    .index_section1 {
+        height: 320px;
+    }
+
+    .index_section2 {
         width: 320px;
     }
 
-    .section2 {
-        width: 320px;
+    .index_section2 {
+        padding-left: 8px;
     }
 
     /* footer  */
     footer {
         padding: 32px 120px;
+    }
+
+    /* catalog */
+    .catalog_section {
+        padding-inline: 8px;
+    }
+
+    /* contact */
+    .contact_section {
+        height: 735px;
+        padding-inline: 8px;
     }
 }
