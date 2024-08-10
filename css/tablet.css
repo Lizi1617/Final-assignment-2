@@ -56,6 +56,11 @@
         padding: 28px 20px;
     }
 
+    .index_logo {
+        width: 40px;
+        height: 40px;
+    }
+
     .header_buttons {
         column-gap: 16px;
     }
