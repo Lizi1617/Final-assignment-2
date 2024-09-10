@@ -100,7 +100,7 @@ header {
 /* index_section1  */
 .index_section1 {
     height: 560px;
-    background-image: url("../imiges/index1.png");
+    background-image: url(&quot;../imiges/index1.png&quot;);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +110,7 @@ header {
     padding-top: 72px;
 }
 
-.index_section1_article {
+.index_section_article {
     display: flex;
     align-items: center;
 }
@@ -119,6 +119,10 @@ header {
     color: #FFFFFF;
     animation: opacity .7s infinite;
     text-shadow: 5px 5px 3px blue;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 @keyframes opacity {
@@ -143,6 +147,8 @@ header {
     color: #D9D9D9;
     border: none;
     margin-left: 24px;
+    transition: .4s linear;
+    cursor: pointer;
 }
 
 .section1_button:hover {
@@ -290,14 +296,13 @@ footer {
     column-gap: 16px;
 }
 
-.fa-facebook,
-.fa-whatsapp,
-.fa-instagram {
+.icons_list i {
     border: 2px solid #D9D9D9;
     background-color: #D9D9D9;
     color: #1A1A1A;
     font-size: 32px;
     transition: .2s linear;
+    border-radius: 8px;
 }
 
 .footer_right_section_a:hover .fa-brands {
@@ -616,13 +621,18 @@ iframe {
     height: 151px;
 }
 
-.social_icons {
-    display: flex;
-    justify-content: flex-end;
-    column-gap: 16px;
+.social_icons_link {
+    background-color: #05BCCA;
+    border-radius: 8px;
+    padding: 4px;
+    transition: .2s linear;
+}
+
+.social_icons_link:hover {
+    transform: skew(20deg);
 }
 
 .social_icons i {
     font-size: 32px;
-    color: #05BCCA;
+    color: #1A1A1A;
 }
