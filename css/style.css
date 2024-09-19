@@ -100,7 +100,7 @@ header {
 /* index_section1  */
 .index_section1 {
     height: 560px;
-    background-image: url(&quot;../imiges/index1.png&quot;);
+    background-image: url(../imiges/index1.png&quot;);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
