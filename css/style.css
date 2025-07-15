@@ -100,7 +100,7 @@ header {
 /* index_section1  */
 .index_section1 {
     height: 560px;
-    background-image: url(../imiges/index1.png&quot;);
+    background-image: url(../imiges/section2-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,8 +111,7 @@ header {
 }
 
 .index_section_article {
-    display: flex;
-    align-items: center;
+    
 }
 
 .section1_title {
