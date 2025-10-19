@@ -111,7 +111,10 @@ header {
 }
 
 .index_section_article {
-    
+    display: flex;
+    row-gap: 24px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .section1_title {
